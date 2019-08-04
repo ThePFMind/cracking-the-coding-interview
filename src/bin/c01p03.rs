@@ -5,7 +5,10 @@ fn urltify_a(url: &str) -> String {
 fn urltify_b(url: &str) -> String {
     let placeholder = "%20";
     url.split_whitespace().fold(String::new(), |acc, s| {
-        placeholder + s
+        if acc == "" {
+            return acc + s;
+        }
+        acc + placeholder + s
     })
 }
 
