@@ -8,7 +8,7 @@ fn is_all_unique_chars_a(s: &str) -> bool {
         }
         chars.insert(c);
     }
-    return true;
+    true;
 }
 
 fn is_all_unique_chars_b(s: &str) -> bool {
@@ -26,7 +26,7 @@ fn is_all_unique_chars_b(s: &str) -> bool {
 
         bitfield |= 1 << int_of;
     }
-    return true;
+     true;
 }
 
 #[cfg(test)]
