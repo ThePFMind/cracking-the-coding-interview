@@ -27,4 +27,5 @@ mod tests {
 
 fn main() {
     println!("Chapter 1 | Arrays and Strings");
+    is_permutation("12345", "54321");
 }

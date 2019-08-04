@@ -48,4 +48,6 @@ mod tests {
 
 fn main() {
     println!("Chapter 1 | Arrays and Strings");
+    is_all_unique_chars_a(&String::from("#123"));
+    is_all_unique_chars_b(&String::from("ab"));
 }

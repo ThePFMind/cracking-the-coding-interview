@@ -29,4 +29,6 @@ mod tests {
 
 fn main() {
     println!("Chapter 1 | Arrays and Strings");
+    urltify_a("Mr John Smith   ");
+    urltify_b("Mr John Smith   ");
 }
